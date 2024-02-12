@@ -1,0 +1,13 @@
+prefix=/Users/sabahatatta/Documents/Project1/venv
+exec_prefix=/Users/sabahatatta/Documents/Project1/venv
+libdir=/Users/sabahatatta/Documents/Project1/venv/lib
+sharedlibdir=/Users/sabahatatta/Documents/Project1/venv/lib
+includedir=/Users/sabahatatta/Documents/Project1/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
